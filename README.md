@@ -2,7 +2,7 @@
 
 Project Planner – Track Active and Finished Projects
 
-Javascript Course Coding Project I Completed. After coding this app I then added a functionality documentation feature and additional comments.
+Javascript Course Coding Project I Completed from Udemy Course: Javascript - The Complete Guide 2023 by Maximilian Schwarzmuller. After coding this app I then added a functionality documentation feature and additional comments.
 
 App can be run from: https://frank-pechar-js-project-planner.netlify.app
 
