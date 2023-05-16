@@ -130,7 +130,7 @@ button:active {
   margin: 0;
 }
 
-.app-desc-button {
+.app-about-button {
   display: inline-block;
   text-decoration: none;
   font-size: 1.2rem;
@@ -143,12 +143,13 @@ button:active {
   transition: all 0.2s ease-in-out;
 }
 
-.app-desc-button:hover {
+.app-about-button:hover,
+.app-about-button:focus {
   filter: brightness(1.1);
   transform: scale(1.05) translateY(-0.1rem);
 }
 
-.app-desc-button:active {
+.app-about-button:active {
   filter: brightness(1);
   transform: scale(1) translateY(0);
 }
