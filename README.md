@@ -6,6 +6,13 @@ Javascript Course Coding Project I Completed. After coding this app I then added
 
 App can be run from: https://frank-pechar-js-project-planner.netlify.app
 
+Application Functionality:
+
+- Drag and and Drop Projects between Active and Finished Lists
+- Use Finish or Activate Buttons to Move Projects between Active and Finished Lists
+- More Info Button Displays Tooltip Popup for Project
+- Click on Tooltip to Remove
+
 ARCHITECTURE: None
 
 IMPLEMENTED the following Javascript methods and features:

@@ -68,20 +68,20 @@ li {
 
 a {
   display: inline-block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   padding-top: 0.5rem;
   text-decoration: none;
   color: #eee;
   background-color: #2a3c51;
   background-color: hsl(212, 96%, 20%);
-  border: 1px solid #ddd;
+  border: 0.2rem solid #ddd;
   border-radius: 0.5rem;
   padding: 0.5rem 1.5rem;
   transition: all 0.2s ease-in-out;
 }
 
 a:hover,
-a:active {
+a:focus {
   filter: brightness(1.1);
   transform: scale(1.02) translateY(-0.1rem);
 }
