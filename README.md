@@ -25,7 +25,7 @@ IMPLEMENTED the following Javascript methods and features:
 - Classes and prototypal inheritance
 - Cloning and re-creating DOM elements to remove event listeners
 
-Side exercises performed while coding this app but not included in this app included using:
+Side exercises performed while coding this app but not included in it:
 
 - Dynamic script creation
 - Timers and intervals
