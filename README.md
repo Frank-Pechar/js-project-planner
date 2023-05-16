@@ -1,4 +1,4 @@
-# Project Planner - Javascript Course Project
+# js-project-planner - Project Planning App - Javascript Course Project
 
 Project Planner – Track Active and Finished Projects
 
