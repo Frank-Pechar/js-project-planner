@@ -1,10 +1,12 @@
-# Project Planning App - Javascript Course Project
+# Project Planning App 
+## Javascript Project
+## Desription of App Functionality, Features, and Methods
 
-Project Planner – Track Active and Finished Projects
-
-Javascript Course Coding Project I Completed from Udemy: Javascript - The Complete Guide 2023 by Maximilian Schwarzmuller. After coding this project I then added additional comments.
+Javascript project I completed from Udemy - Javascript - The Complete Guide 2023 by Maximilian Schwarzmuller. After coding this project I added minor changes and commenting for educational purposes.
 
 App can be run from: https://frank-pechar-js-project-planner.netlify.app
+
+## This App Uses Javascript Features Such As:
 
 Application Functionality:
 
@@ -34,3 +36,6 @@ Side exercises performed while coding this app but not included in it:
 - Creating and using Date and Error objects
 - Event propagation and delegation
 - Programmatically triggering events
+
+## Coding Methods and Features Used:
+
