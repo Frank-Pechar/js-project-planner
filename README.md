@@ -24,6 +24,7 @@ IMPLEMENTED the following Javascript methods and features:
 - DOM manipulation
 - Classes and prototypal inheritance
 - Cloning and re-creating DOM elements to remove event listeners
+- Static method
 
 Side exercises performed while coding this app but not included in it:
 
@@ -35,7 +36,7 @@ Side exercises performed while coding this app but not included in it:
 - Event propagation and delegation
 - Programmatically triggering events
 
-- Used dragstart, dragenter, dragover addEventListeners
+- Used dragstart, dragenter, dragover, dragleave, drop addEventListeners
 - event.dataTransfer.setData();
 - event.dataTransfer.effectAllowed 
       
