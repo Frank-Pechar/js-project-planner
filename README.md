@@ -24,7 +24,7 @@ IMPLEMENTED the following Javascript methods and features:
 - DOM manipulation
 - Classes and prototypal inheritance
 - Cloning and re-creating DOM elements to remove event listeners
-- Static method
+- Static methods
 
 Side exercises performed while coding this app but not included in it:
 
