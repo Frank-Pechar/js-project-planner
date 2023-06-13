@@ -8,8 +8,6 @@ App can be run from: https://frank-pechar-js-project-planner.netlify.app
 
 ## This App Uses Javascript Features Such As:
 
-Application Functionality:
-
 - Drag and and Drop Projects between Active and Finished Lists
 - Use Finish or Activate Buttons to Move Projects between Active and Finished Lists
 - More Info Button Displays Tooltip Popup for Project
@@ -36,6 +34,17 @@ Side exercises performed while coding this app but not included in it:
 - Creating and using Date and Error objects
 - Event propagation and delegation
 - Programmatically triggering events
+
+- Used dragstart, dragenter, dragover addEventListeners
+- event.dataTransfer.setData();
+- event.dataTransfer.effectAllowed 
+      
+list.addEventListener('dragenter', (event) => {
+      // check for correct data type to be dropped
+      if (event.dataTransfer.types[0] === 'text/plain') {
+        // change background color for section of ul
+        list.parentElement.classList.add('droppable');
+      
 
 ## Coding Methods and Features Used:
 
