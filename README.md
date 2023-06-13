@@ -25,6 +25,7 @@ IMPLEMENTED the following Javascript methods and features:
 - Classes and prototypal inheritance
 - Cloning and re-creating DOM elements to remove event listeners
 - Static methods
+- Used scrollIntoView({ behavior: 'smooth' })
 
 Side exercises performed while coding this app but not included in it:
 
