@@ -16,7 +16,7 @@ This App Provides Drag and Drop Functionality and Positioning of Screen Elements
 - Click the &lt;More Info&gt; Button to Display a Tooltip Popup
 - Click the Tooltip Popup to Remove it
 
-## This App Uses Javascript Features Such As:
+## Javascript Features and Methods Used:
 
 - Drag and and Drop Projects between Active and Finished Lists
 - Also, use Finish or Activate Buttons to Move Projects between Active and Finished Lists
@@ -39,6 +39,3 @@ Side exercises performed while coding this app but not included in it:
 - Creating and using Date and Error objects
 - Event propagation and delegation
 - Programmatically triggering events
-
-## Coding Methods and Features Used:
-
