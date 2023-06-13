@@ -11,7 +11,7 @@ App can be run from: https://frank-pechar-js-project-planner.netlify.app
 This App Provides Drag and Drop Functionality and Positioning of Screen Elements
 
 - Move Projects Between Active and Finished Lists
-- Click the <Finish> or Activate; button
+- Click the &lt;Finish&gt; or &lt;Activate&gt; button
 - Can Also Drag and Drop Projects Between Lists
 - Click the &lt;More Info&gt; Button to Display a Tooltip Popup
 - Click the Tooltip Popup to Remove it
