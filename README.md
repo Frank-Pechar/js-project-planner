@@ -1,6 +1,6 @@
 # Project Planning App 
 ## Javascript Project
-## Desription of App Functionality, Features, and Methods
+## Description of App Functionality, Features, and Methods
 
 Javascript project I completed from Udemy - Javascript - The Complete Guide 2023 by Maximilian Schwarzmuller. After coding this project I added comments for educational purposes.
 
