@@ -6,9 +6,11 @@ Javascript project I completed from Udemy - Javascript - The Complete Guide 2023
 
 App can be run from: https://frank-pechar-js-project-planner.netlify.app
 
-## App Functionality
+## App Description 
 
-This App Provides for Drag and Drop Functionality and Positioning of Screen Elements
+This App Provides for Drag and Drop Functionality and Positioning of Screen Elements.
+
+## App Functionality
 
 - Move Projects Between Active and Finished Lists
 - Click the &lt;Finish&gt; or &lt;Activate&gt; button
