@@ -31,6 +31,7 @@ This App Provides for Drag and Drop Functionality and Positioning of Screen Elem
 - Cloning and re-creating DOM elements to remove event listeners
 - Static methods
 - Scrolling to moved element
+- Responsive Design Techniques
 
 Side exercises performed while coding this app but not included in it:
 
