@@ -1,0 +1,47 @@
+{
+  "name": "web-environment",
+  "version": "1.0.0",
+  "description": "SASS/Prefixing/Webpack/Babel Environment",
+  "main": "index.js",
+  "author": "Frank Pechar",
+  "license": "ISC",
+  "browserslist": "> 0.2%",
+  "scripts": {
+    "prefix:css": "postcss src/app-raw.css --use autoprefixer -o assets/styles/app.prefix.css",
+    "compress:css": "node-sass assets/styles/app.prefix.css assets/styles/app.css --output-style compressed",
+    "build:css": "npm-run-all prefix:css compress:css",
+    "build:webpackdev": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack",
+    "build:devNotWk": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server",
+    "build:dev": "npm-run-all compile:sass prefix:css compress:css build:webpackdev",
+    "build:webpackprod": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack.config.prod.js",
+    "build:prod": "npm-run-all build:css build:webpackprod"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "autoprefixer": "^10.4.15",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "concat": "^1.0.3",
+    "node-sass": "^9.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.1.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "core-js": "^3.32.0",
+    "cross-env": "^7.0.3",
+    "lodash": "^4.17.21",
+    "regenerator-runtime": "^0.14.0"
+  },
+  "//comments": {
+    "//comment1": "babel-loader (not babeljs.io) - is interface for babel integration into webpack",
+    "//comment2": "@babel/preset-env - feature translation rules",
+    "//comment3": "@babel/core - babel translation code",
+    "//comment4": "lodash - library of utility functions for arrays, functions and functions",
+    "//comment5": "regenerator-runtime - polyfill package for features that core-js doesn't handle that babel will utilize if needed",
+    "//comment6": "browserslist: > 2%, not dead"
+  }
+}
